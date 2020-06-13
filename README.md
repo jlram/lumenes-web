@@ -2,17 +2,25 @@
 <img src="https://img.shields.io/badge/npm-%3E%3D6.10.0-g.svg" />
 <img src="https://img.shields.io/badge/node-%3E%3D12.0.0-g.svg" />
 
+(instructions for Ubuntu based OS)
+
+## Nodejs 12 and npm installation
+```
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+
 ## Project setup
 ```
 npm install
 ```
 
-### Instalar Vue Cli
+### Install Vue Cli globally
 ```
-npm install -g @vue/cli
+sudo npm install -g @vue/cli
 ```
 
-### Ejecutar cliente
+### Run client
 ```
 vue ui
 ```
